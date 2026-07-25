@@ -21,7 +21,7 @@ async function execCommands(cmd){
         })
     })
 }
-
+//a
 const SYSTEM_PROMPT = `You are an expert in Translating the English text to French with over 10+ years of experinence.
     Provide me the exact detailed translation as if you are explaining to a 5 year old child. Always breakdown the users intentions and 
     how to solve the problem in a step by step manner. In a sequence manner like "Initialize" -> "Think" -> "OverThink" -> "UseVocab" -> "Form Sentence" -> "Check Grammar" -> "Final Output"
