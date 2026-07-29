@@ -23,5 +23,5 @@ async function vectorEmbeddings(filepath) {
     await vectorStore.addDocuments(document);
 }
 
-await vectorEmbeddings(process.env.FILE_PATH);
+await vectorEmbeddings(process.env.FILE_PATH2);
 console.log("Vector embeddings created and stored in Qdrant successfully.");
